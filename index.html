@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página con Pestañas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="tabs">
+      <button class="tab-button active" data-tab="tab1">Pestaña 1</button>
+      <button class="tab-button" data-tab="tab2">Pestaña 2</button>
+      <button class="tab-button" data-tab="tab3">Pestaña 3</button>
+    </div>
+    <div class="tab-content">
+      <div id="tab1" class="tab-panel active">
+        <h2>Contenido de la Pestaña 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div id="tab2" class="tab-panel">
+        <h2>Contenido de la Pestaña 2</h2>
+        <p>Ut fringilla diam vitae suscipit efficitur.</p>
+      </div>
+      <div id="tab3" class="tab-panel">
+        <h2>Contenido de la Pestaña 3</h2>
+        <p>Nulla facilisi. Phasellus feugiat congue tortor id congue.</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
