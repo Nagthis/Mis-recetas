@@ -13,7 +13,7 @@ h1 {
     font-size: 2.5rem;
     font-family: Cursive;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     width: 100%;
 }
 
@@ -21,9 +21,8 @@ h2 {
     background-color: #c58940;
     text-indent: 1.25rem;
     font-family: Cursive;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     width: 100%;
-
 }
 
 h3 {
@@ -34,14 +33,9 @@ h3 {
 
 li {
     font-family: Arial, Helvetica, sans-serif;
-    /* list-style-type: none; */
 }
 
-
-
-
 .li-text-style {
-    /* colorea los 1/2  por medio de un span*/
     font-weight: bold;
 }
 
@@ -59,10 +53,11 @@ p {
     list-style-type: none;
 }
 
-.arrow-list li:before {
+.arrow-list li::before {
     content: "➤";
     margin-right: 5px;
 }
+
 
 /* html {
     /* viene por defecto 16px */
