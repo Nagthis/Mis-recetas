@@ -43,11 +43,13 @@ h3 {
     font-weight: bold;
     text-indent: 2.625rem;
     font-size: 1.5rem;
+    font-family: Cursive;
 }
 
 li {
     font-family: Cursive;
     font-size: 1.1rem;
+    text-indent: 0.2rem;
 }
 
 .li-text-style {
@@ -62,6 +64,9 @@ p {
 .p-style {
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: Cursive;
+    font-size: 1.1rem;
+    text-indent: 0.2rem;
 }
 
 .arrow-list {
@@ -70,8 +75,8 @@ p {
 
 .arrow-list li::before {
     content: "➤";
-    margin-right: 5px;
-    Color: #884a39;
+    margin-right: 1rem;
+    Color: black;
 }
 
 /* html {
