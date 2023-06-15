@@ -15,10 +15,10 @@ svg {
 }
 
 body {
-    background-color: #F9E0BB;
+    background-color: #f9e0bb;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    padding: 0rem 3rem;
+    padding: 0 3rem;
 }
 
 main {
@@ -32,10 +32,13 @@ h1 {
     font-family: Cursive;
     text-align: center;
     width: 100%;
-    background: rgb(2, 0, 36);
+    background: linear-gradient(137deg,
+            rgba(136, 74, 57, 1) 25%,
+            rgba(255, 194, 111, 1) 50%,
+            rgba(195, 129, 84, 1) 75%,
+            rgba(249, 224, 187, 1) 100%);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     border-radius: 100vmax;
-    background: linear-gradient(137deg, rgba(136, 74, 57, 1) 25%, rgba(255, 194, 111, 1) 50%, rgba(195, 129, 84, 1) 75%, rgba(249, 224, 187, 1) 100%);
     margin: 1.5rem 0;
 }
 
@@ -46,7 +49,11 @@ h2 {
     font-size: 1.5rem;
     padding: 0.5rem 0;
     width: 100%;
-    background: linear-gradient(137deg, rgba(136, 74, 57, 1) 25%, rgba(255, 194, 111, 1) 50%, rgba(195, 129, 84, 1) 75%, rgba(249, 224, 187, 1) 100%);
+    background: linear-gradient(137deg,
+            rgba(136, 74, 57, 1) 25%,
+            rgba(255, 194, 111, 1) 50%,
+            rgba(195, 129, 84, 1) 75%,
+            rgba(249, 224, 187, 1) 100%);
     border-radius: 100vmax;
     margin-bottom: 1.5rem;
 }
@@ -64,14 +71,9 @@ li {
     font-family: Cursive;
     font-size: 1.1rem;
     text-indent: 0.2rem;
-
 }
 
-ul {
-    margin-bottom: 1.5rem;
-    margin-left: ;
-}
-
+ul,
 ol {
     margin-bottom: 1.5rem;
 }
@@ -92,15 +94,13 @@ p {
 
 .p-style {
     font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: Cursive;
+    font-family: Cursive, Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
-    text-indent: -0rem;
+    text-indent: 0;
 }
 
 .arrow-list {
     list-style-type: none;
-
 }
 
 .arrow-list li::before {
@@ -108,8 +108,29 @@ p {
     margin-right: 0.8rem;
     color: black;
     margin-left: -1.7rem;
-
 }
+
+.container {
+    display: flex;
+}
+
+.cucharadita {
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+.taza {
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+}
+
 
 
 /* html {
