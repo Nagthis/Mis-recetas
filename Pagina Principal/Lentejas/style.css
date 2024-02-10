@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    background-color: #f9e0bb;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 3rem;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: Cursive;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(137deg,
+            rgba(136, 74, 57, 1) 25%,
+            rgba(255, 194, 111, 1) 50%,
+            rgba(195, 129, 84, 1) 75%,
+            rgba(249, 224, 187, 1) 100%);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 100vmax;
+    margin: 1.5rem 0;
+}
+
+h2 {
+    color: black;
+    text-indent: 1.5rem;
+    font-family: Cursive;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    width: 100%;
+    background: linear-gradient(137deg,
+            rgba(136, 74, 57, 1) 25%,
+            rgba(255, 194, 111, 1) 50%,
+            rgba(195, 129, 84, 1) 75%,
+            rgba(249, 224, 187, 1) 100%);
+    border-radius: 100vmax;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    color: #884a39;
+    font-weight: bold;
+    text-indent: 2.625rem;
+    font-size: 1.5rem;
+    font-family: Cursive;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    font-family: Cursive;
+    font-size: 1.1rem;
+    text-indent: 0.2rem;
+}
+
+ul,
+ol {
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    background-color: black;
+    border-top: 2px solid black;
+}
+
+.li-text-style {
+    font-weight: bold;
+}
+
+p {
+    text-indent: 1rem;
+    font-size: 1rem;
+}
+
+.p-style {
+    font-weight: normal;
+    font-family: Cursive, Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-indent: 0;
+}
+
+.arrow-list {
+    list-style-type: none;
+}
+
+.arrow-list li::before {
+    content: "➤";
+    margin-right: 0.8rem;
+    color: black;
+    margin-left: -1.7rem;
+}
+
+.container {
+    display: flex;
+}
+
+.cucharadita {
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+.taza {
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+}
+
+
+
+/* html {
+    /* viene por defecto 16px */
+/* font-size: 32px; */
+/* } */
+/* li::before { */
+/* content: "➤"; Utilizamos el carácter de flecha como ícono personalizado */
+/* color: brown; Cambia el color de la flecha */
+/* display: inline-block; */
+/* width: 1em; */
+/* margin-right: 0.5em; Espacio entre la flecha y el texto  */
+/* } */
+/* .first-letter-styleS::first-letter { */
+/* colorea la primera letra de los li usando el comando :: first-letter*/
+/* font-weight: bold; */
+/* } */
